@@ -25,7 +25,13 @@
 
 body {
     background-color: var(--bg-color);
+    
 
+}
+
+main{
+    display: flex;
+    
 }
 
 .highlight-primary {
@@ -44,7 +50,7 @@ nav {
     font-family: var(--ff-primary);
     background-color: #f2ae3320;
     border-radius: 7.6rem;
-    width: 90rem;
+width: 80%;
     
     margin: 5rem;
     align-items: center;
