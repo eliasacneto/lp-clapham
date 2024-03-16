@@ -19,7 +19,9 @@
     --black: #000;
 
     --color-primary: #9b6400;
+    --color-primary-darker: #835603;
     --color-secondary: #b29105;
+    --color-secondary-darker: #e69e1a;
     --box-color: #1d1d1d;
 
     --footer-color: #b29105;
@@ -63,6 +65,7 @@ nav {
 }
 
 .cta-nav {
+    cursor: pointer;
     background-color: var(--bg-cta-nav);
     border: none;
     color: var(--white);
@@ -73,6 +76,16 @@ nav {
     text-transform: uppercase;
     padding: 1.4rem 4.5rem;
 }
+.cta-nav:hover{
+    background-color: #e7a529;
+}
+
+.cta-nav a {
+    text-decoration: none;
+    color: var(--color-primary);
+}
+
+
 
 .nav-list {
     display: flex;
@@ -82,6 +95,18 @@ nav {
     font-size: 1.8rem;
     font-family: var(--ff-primary);
     font-weight: bold;
+}
+
+.nav-list a{
+
+    text-decoration: none;
+    color: var(--color-primary);
+    
+}
+
+.nav-list a:hover{
+    color:#e7a529;
+
 }
 
 .nav-list-item {
@@ -171,6 +196,8 @@ nav {
     width: 25rem;
     padding: 1rem;
     cursor: pointer;
+    text-decoration: none;
+    text-align: center;
 }
 
 /* TESTIMONIALS */
@@ -234,6 +261,11 @@ nav {
     font-size: 1.4rem;
     font-family: var(--ff-secondary);
     margin-top: 2rem;
+}
+
+.testimonial-author a{
+    color: var(--color-primary);
+
 }
 
 /* SERVICES */
@@ -340,6 +372,8 @@ nav {
     color: var(--white);
     background-color: var(--color-primary);
     padding: 1.5rem 5rem;
+    text-align: center;
+    text-decoration: none;
 }
 
 .service-two-img {
@@ -447,6 +481,7 @@ nav {
     text-transform: uppercase;
 }
 
+
 /* WORKSHOP */
 
 #workshop {
@@ -502,6 +537,12 @@ nav {
     height: 5rem;
     border: none;
     border-radius: 3.8rem;
+    text-decoration: none;
+    text-align: center;
+    padding: 1.2rem;
+}
+.cta-workshop:hover{
+    background-color: var(--color-primary-darker);
 }
 
 /* START */
@@ -584,6 +625,13 @@ nav {
     height: 5rem;
     margin-top: 4rem;
     text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    padding: 1.2rem ;
+}
+
+.cta-start:hover{
+    background-color: var(--color-secondary-darker);
 }
 
 /* FOOTER */
@@ -614,10 +662,11 @@ footer {
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: bold;
-
     text-decoration: none;
     color: var(--white);
 }
+
+
 
 ::-webkit-scrollbar {
     width: 12px;
