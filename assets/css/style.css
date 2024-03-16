@@ -43,8 +43,8 @@ body {
     color: var(--color-secondary);
 }
 
-.hide{
-    display: none;
+.hide {
+    display: none !important;
 }
 
 /* HOME */
@@ -80,7 +80,8 @@ nav {
     text-transform: uppercase;
     padding: 1.4rem 4.5rem;
 }
-.cta-nav:hover{
+
+.cta-nav:hover {
     background-color: #e7a529;
 }
 
@@ -94,28 +95,33 @@ nav {
 .nav-list {
     display: flex;
     justify-content: space-around;
-    width: 40%;
+    align-items: center;
+    width: 48%;
     color: var(--color-primary);
     font-size: 1.8rem;
     font-family: var(--ff-primary);
     font-weight: bold;
 }
 
-.nav-list a{
+.nav-list a {
 
     text-decoration: none;
     color: var(--color-primary);
-    
+
 }
 
-.nav-list a:hover{
-    color:#e7a529;
+.nav-list a:hover {
+    color: #e7a529;
 
 }
 
 .nav-list-item {
     list-style: none;
     text-transform: uppercase;
+}
+
+.nav-mobile{
+    display: none;
 }
 
 .home-content {
@@ -268,7 +274,7 @@ nav {
     margin-top: 2rem;
 }
 
-.testimonial-author a{
+.testimonial-author a {
     color: var(--color-primary);
 
 }
@@ -545,7 +551,8 @@ nav {
     text-align: center;
     padding: 1.2rem;
 }
-.cta-workshop:hover{
+
+.cta-workshop:hover {
     background-color: var(--color-primary-darker);
 }
 
@@ -630,10 +637,10 @@ nav {
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
-    padding: 1.2rem ;
+    padding: 1.2rem;
 }
 
-.cta-start:hover{
+.cta-start:hover {
     background-color: var(--color-secondary-darker);
 }
 
@@ -695,16 +702,20 @@ footer {
     .nav-list {
         width: 40%;
     }
+
     .home-content {
         flex-direction: row;
     }
+
     .home-text {
         width: 40%;
         margin-top: 0;
     }
+
     .home-img {
         width: 80%;
     }
+
     .home-banner {
         width: 35%;
     }
@@ -712,22 +723,27 @@ footer {
     .about {
         gap: 20rem;
     }
+
     .about-img {
         width: 40rem;
         margin-top: 5rem;
         margin-bottom: 5rem;
     }
+
     .about-content {
         width: 55rem;
     }
+
     .about-title {
         font-size: 3.5rem;
     }
+
     .about-subtitle {
         font-size: 2rem;
         margin-top: 2rem;
         margin-bottom: 3rem;
     }
+
     .cta-about {
         width: 25rem;
         font-size: 2rem;
@@ -740,16 +756,20 @@ footer {
         margin-top: 5rem;
         margin-bottom: 3.7rem;
     }
+
     .customer {
         gap: 3.5rem;
     }
+
     .customer-img {
         height: 50rem;
     }
+
     .testimonials-box {
         gap: 4rem;
         margin: 4.5rem 2rem;
     }
+
     .testimonial-content {
         width: 42.9rem;
     }
@@ -757,25 +777,31 @@ footer {
     .services {
         padding: 5rem 0;
     }
+
     .service-one {
         flex-direction: row;
         align-items: flex-start;
         justify-content: space-evenly;
         margin-top: 10rem;
     }
+
     .service-one-img {
         height: 60rem;
     }
+
     .service-one-content {
         width: 50rem;
     }
+
     .service-two {
         flex-direction: row-reverse;
         margin-top: 10rem;
     }
+
     .service-two-content {
         width: 60rem;
     }
+
     .service-two-img {
         height: 80rem;
         margin-top: -10rem;
@@ -785,6 +811,7 @@ footer {
         gap: 8rem;
         padding-top: 5rem;
     }
+
     .discover-content {
         width: 60rem;
     }
@@ -792,13 +819,16 @@ footer {
     .book-content {
         gap: 8rem;
     }
+
     .book-content-title {
         font-size: 2.3rem;
         width: 55rem;
     }
+
     .book-content-list-item {
         width: 55rem;
     }
+
     .get-book {
         font-size: 2.4rem;
         width: 55rem;
@@ -812,15 +842,19 @@ footer {
         padding: 5rem 8rem;
         gap: 8rem;
     }
+
     .workshop-content {
         width: 70rem;
     }
+
     .workshop-title {
         font-size: 2.5rem;
     }
+
     .workshop-subtitle {
         font-size: 1.8rem;
     }
+
     .cta-workshop {
         font-size: 2.2rem;
         height: 6rem;
@@ -831,15 +865,19 @@ footer {
         gap: 12rem;
         margin: 10rem auto;
     }
+
     .start-title {
         font-size: 4rem;
     }
+
     .start-text {
         font-size: 2rem;
     }
+
     .start-subtitle {
         font-size: 2.5rem;
     }
+
     .start-content-list {
         font-size: 2rem;
     }
@@ -847,6 +885,7 @@ footer {
     .footer {
         height: 15rem;
     }
+
     .footer-links-list {
         gap: 8rem;
     }
@@ -857,17 +896,21 @@ footer {
     .nav {
         width: 90%;
     }
+
     .home-content {
         flex-direction: column;
     }
+
     .home-text {
         width: 80%;
         margin-top: 2rem;
         text-align: center;
     }
+
     .home-img {
         width: 70%;
     }
+
     .home-banner {
         width: 70%;
         margin-top: 2rem;
@@ -879,22 +922,27 @@ footer {
         text-align: center;
         gap: 3rem;
     }
+
     .about-img {
         width: 70%;
         margin-top: 3rem;
         margin-bottom: 3rem;
     }
+
     .about-content {
         width: 80%;
     }
+
     .about-title {
         font-size: 2.5rem;
     }
+
     .about-subtitle {
         font-size: 1.8rem;
         margin-top: 1rem;
         margin-bottom: 2rem;
     }
+
     .cta-about {
         width: 60%;
         font-size: 1.8rem;
@@ -908,21 +956,25 @@ footer {
         margin-bottom: 2.5rem;
         text-align: center;
     }
+
     .customer {
         flex-direction: column;
         align-items: center;
         gap: 2rem;
     }
+
     .customer-img {
         height: auto;
         width: 70%;
     }
+
     .testimonials-box {
         flex-direction: column;
         gap: 2rem;
         margin: 3rem 1rem;
         align-items: center;
     }
+
     .testimonial-content {
         width: 80%;
     }
@@ -933,12 +985,14 @@ footer {
         align-items: center;
         text-align: center;
     }
+
     .service-one-img,
     .service-two-img {
         width: 80%;
         height: auto;
         margin-top: 3rem;
     }
+
     .service-one-content,
     .service-two-content {
         width: 90%;
@@ -951,6 +1005,7 @@ footer {
         gap: 4rem;
         padding: 5rem 2rem;
     }
+
     .discover-content {
         width: 90%;
     }
@@ -961,13 +1016,16 @@ footer {
         text-align: center;
         gap: 4rem;
     }
+
     .book-content-title {
         width: 90%;
         font-size: 2rem;
     }
+
     .book-content-list-item {
         width: 90%;
     }
+
     .get-book {
         width: 90%;
         font-size: 1.8rem;
@@ -982,6 +1040,7 @@ footer {
         padding: 5rem 4rem;
         gap: 5rem;
     }
+
     .workshop-content {
         width: 100%;
         text-align: center;
@@ -1004,9 +1063,11 @@ footer {
         padding: 3rem;
         text-align: center;
     }
+
     .footer-img {
         margin-bottom: 2rem;
     }
+
     .footer-links-list {
         gap: 4rem;
     }
@@ -1017,12 +1078,15 @@ footer {
     .nav {
         width: 90%;
     }
+
     .home-text {
         width: 90%;
     }
+
     .home-img {
         width: 100%;
     }
+
     .home-banner {
         width: 100%;
         margin-top: 2rem;
@@ -1061,6 +1125,7 @@ footer {
         text-transform: uppercase;
         margin-bottom: 2rem;
     }
+
     .testimonials-title {
         font-size: 2rem;
         width: 90%;
@@ -1068,21 +1133,25 @@ footer {
         margin-bottom: 2.5rem;
         text-align: center;
     }
+
     .customer {
         flex-direction: column;
         align-items: center;
         gap: 2rem;
     }
+
     .customer-img {
         height: auto;
         width: 70%;
     }
+
     .testimonials-box {
         flex-direction: column;
         gap: 2rem;
         margin: 3rem 1rem;
         align-items: center;
     }
+
     .testimonial-content {
         width: 80%;
     }
@@ -1147,6 +1216,7 @@ footer {
         height: auto;
         margin-top: 2rem;
     }
+
     .discover-subtitle {
         margin-bottom: 4rem;
     }
@@ -1182,67 +1252,74 @@ footer {
         padding: 1rem 2rem;
 
     }
+
     .workshop-box {
         margin: 5rem auto;
         padding: 3rem 2rem;
     }
+
     .workshop-title {
         font-size: 2rem;
     }
+
     .workshop-subtitle {
         font-size: 1.6rem;
     }
+
     .cta-workshop {
         font-size: 1.8rem;
         height: 5rem;
         padding: 1rem 2rem;
     }
-#start{
-    background-color: #856d06 !important;
-    background-image: none;
-}
-.start-content {
-    flex-direction: column;
-    gap: 4rem;
-}
 
-.start-content-side {
-    width: 100%;
-}
+    #start {
+        background-color: #856d06 !important;
+        background-image: none;
+    }
 
-.start-img {
-    width: 100%;
-    margin-top: 2rem;
-}
+    .start-content {
+        flex-direction: column;
+        gap: 4rem;
+    }
 
-.start-title {
-    font-size: 2.5rem;
-}
+    .start-content-side {
+        width: 100%;
+    }
 
-.start-text {
-    font-size: 1.5rem;
-}
+    .start-img {
+        width: 100%;
+        margin-top: 2rem;
+    }
 
-.start-subtitle {
-    font-size: 1.8rem;
-}
+    .start-title {
+        font-size: 2.5rem;
+    }
 
-.start-content-list {
-    font-size: 1.5rem;
-}
+    .start-text {
+        font-size: 1.5rem;
+    }
 
-.cta-start {
-    font-size: 1.5rem;
-    height: 4rem;
-    margin-top: 2rem;
-}
-footer{
-    display: flex;
-    flex-direction: column;
-    height: 25rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-}
+    .start-subtitle {
+        font-size: 1.8rem;
+    }
+
+    .start-content-list {
+        font-size: 1.5rem;
+    }
+
+    .cta-start {
+        font-size: 1.5rem;
+        height: 4rem;
+        margin-top: 2rem;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        height: 25rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
 
     .footer-links-list {
         flex-direction: column;
@@ -1250,23 +1327,70 @@ footer{
 
     }
 
+
+    .feedback-img {
+        width: 100%;
+    }
+
     nav{
         display: flex;
+        justify-content: space-around;
+        align-items: center;
+background-color: white;
+
+        border-radius: 1.8rem;
+        width: 60%;
+        margin: 5rem auto 1rem auto;
+    }
+
+    .nav-desk{
+        display: none;
+    }
+
+    .nav-mobile{
+width: 100%;
+        display: flex;
         flex-direction: column;
-        height: 35rem;
+
+    justify-content: space-between;
+
     }
 
     .nav-list{
         display: flex;
         flex-direction: column;
+        align-items: center;
+
     }
 
     .nav-list-item{
         margin-top: 2rem;
-        text-align: center;
     }
-    .feedback-img{
+
+.menu{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+    .cta-mobile{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .cta-mobile a {
+        background-color: var(--bg-cta-nav);
+        color: var(--white);
+        padding: 1rem 2rem;
+        
+        border-radius: 2rem;
+    }
+
+    .showMenu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 100%;
     }
     
+
+
 }

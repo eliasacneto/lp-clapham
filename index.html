@@ -18,6 +18,8 @@
     <meta property="og:image" content="./assets/img/favicon/apple-touch-icon.png"> 
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/main.js" defer></script>
+
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,7 +39,7 @@
 
 <body>
     <section id="home" class="home">
-        <nav>
+        <nav class="nav-desk ">
             <img src="./assets/img/logo_nav.png">
             <ul class="nav-list">
                 <li class="nav-list-item"><a href="#home">Home</a></li>
@@ -46,6 +48,26 @@
             </ul>
             <a href="#"><button class="cta-nav">Fale conosco</button></a>
         </nav>
+
+        <nav class="nav-mobile">
+            <img class="nav-logo" src="./assets/img/logo_nav.png">
+            <div class="menu">
+                <img class="open-menu" class="open" src="./assets/img/home/menu.svg">
+
+            </div>
+            <div class="showMenu hide">
+                <ul class="nav-list ">
+                    <li class="nav-list-item"><a href="#home">Home</a></li>
+                    <li class="nav-list-item"><a href="#about">Sobre nós</a></li>
+                    <li class="nav-list-item"><a href="#contact">Contato</a></li>
+                    <li class="nav-list-item cta-mobile"><a href="#">Fale Conosco</a></li>
+                </ul>
+
+            </div>
+        </nav>
+
+        
+        
         <div class="home-content">
             <div class="home-text">
                 <img class="home-img" src="./assets/img/home/logo.png">
@@ -465,6 +487,7 @@
             </ul>
         </div>
     </footer>
+
 </body>
 
 </html>
