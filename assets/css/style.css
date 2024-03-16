@@ -202,6 +202,7 @@ nav {
     cursor: pointer;
     text-decoration: none;
     text-align: center;
+    text-transform: uppercase;
 }
 
 /* TESTIMONIALS */
@@ -439,7 +440,6 @@ nav {
     padding-top: 5rem;
 }
 
-.left-content {}
 
 .book-content-title {
     color: var(--white);
@@ -1028,24 +1028,38 @@ footer {
         margin-top: 2rem;
     }
 
+    .about {
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+    }
+
     .about-img {
-        width: 90%;
-    }
-    .about-content {
-        width: 90%;
-    }
-    .about-title {
-        font-size: 2rem;
-    }
-    .about-subtitle {
-        font-size: 1.6rem;
-        margin-top: 1rem;
+        width: 60%;
+        margin-top: 2rem;
         margin-bottom: 2rem;
     }
+
+    .about-content {
+        width: 90%;
+        text-align: center;
+    }
+
+    .about-title {
+        font-size: 2.5rem;
+    }
+
+    .about-subtitle {
+        font-size: 1.8rem;
+        margin-top: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
     .cta-about {
-        width: 80%;
-        font-size: 1.6rem;
-        padding: 0.7rem;
+        font-size: 1.8rem;
+        width: 100%;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
     }
     .testimonials-title {
         font-size: 2rem;
@@ -1073,36 +1087,101 @@ footer {
         width: 80%;
     }
 
-    .service-one-img,
-    .service-two-img {
+    .service-one {
+        flex-direction: column;
+    }
+
+    .service-one-img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+
+    .service-one-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .service-one-title {
+        font-size: 2.5rem;
+    }
+
+    .service-one-list-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-one-list-item img {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .service-two {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-two-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .service-two-title {
+        font-size: 2.5rem;
+    }
+
+    .service-two-list-item {
+        flex-direction: column;
+        align-items: center;
         width: 100%;
     }
-    .service-one-title,
-    .service-two-title {
-        font-size: 2rem;
+
+    .service-two-img {
+        width: 100%;
+        height: auto;
+        margin-top: 2rem;
     }
-    
-    .service-one-list-item p,
-    .service-two-list-item p {
-        font-size: 1.4rem;
-    }
-    .cta-service {
-        font-size: 1.6rem;
-        padding: 1rem 3rem;
+
+    .services-footer-img {
+        width: 100%;
+        height: auto;
+        margin-top: 2rem;
     }
     .discover-subtitle {
         margin-bottom: 4rem;
     }
 
+    .book-content {
+        flex-direction: column;
+        gap: 4rem;
+    }
+
     .book-content-title {
+        font-size: 2rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .book-content-list {
         font-size: 1.8rem;
+        width: 100%;
+        text-align: center;
     }
+
     .book-content-list-item {
-        font-size: 1.6rem;
+        width: 100%;
+        text-align: center;
     }
 
+    .get-book {
+        font-size: 1.6rem;
+        width: 100%;
+        text-align: center;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        padding: 1rem 2rem;
 
-    
+    }
     .workshop-box {
         margin: 5rem auto;
         padding: 3rem 2rem;
@@ -1122,25 +1201,41 @@ footer {
     background-color: #856d06 !important;
     background-image: none;
 }
-    .start-content {
-        gap: 5rem;
-        margin: 5rem auto;
-    }
-    .start-title {
-        font-size: 3rem;
-    }
-    .start-text {
-        font-size: 1.6rem;
-    }
-    .start-subtitle {
-        font-size: 2rem;
-    }
-    .start-content-list {
-        align-items: start;
-        text-align: start;
-        font-size: 1.6rem;
-    }
+.start-content {
+    flex-direction: column;
+    gap: 4rem;
+}
 
+.start-content-side {
+    width: 100%;
+}
+
+.start-img {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.start-title {
+    font-size: 2.5rem;
+}
+
+.start-text {
+    font-size: 1.5rem;
+}
+
+.start-subtitle {
+    font-size: 1.8rem;
+}
+
+.start-content-list {
+    font-size: 1.5rem;
+}
+
+.cta-start {
+    font-size: 1.5rem;
+    height: 4rem;
+    margin-top: 2rem;
+}
 footer{
     display: flex;
     flex-direction: column;
