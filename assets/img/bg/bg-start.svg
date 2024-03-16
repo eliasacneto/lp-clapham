@@ -3,10 +3,16 @@
 <rect width="1440" height="1024" fill="#FFFEF3"/>
 <rect width="1453" height="1024" rx="20" transform="matrix(-1 0 0 1 1466 2)" fill="#856D06"/>
 <path d="M1440 24C1440 12.9543 1431.05 4 1420 4H47.9998C36.9541 4 27.9998 12.9543 27.9998 24V1006C27.9998 1017.05 36.9541 1026 47.9998 1026H1420C1431.05 1026 1440 1017.05 1440 1006V24Z" fill="#B29105"/>
+<g style="mix-blend-mode:screen" opacity="0.75" filter="url(#filter0_f_4004_613)">
+<path d="M342.5 1056C333.824 1307.05 123.273 1503.54 -127.779 1494.86C-378.83 1486.18 -575.314 1275.63 -566.638 1024.58C-557.962 773.529 -347.411 577.045 -96.3591 585.721C154.692 594.397 351.176 804.948 342.5 1056Z" fill="#B29105"/>
+</g>
 </g>
 <defs>
-<clipPath id="clip0_4004_613">
-<rect width="1440" height="1024" fill="white"/>
-</clipPath>
+<filter id="filter0_f_4004_613" x="-1102.91" y="49.4445" width="1981.69" height="1981.69" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="268" result="effect1_foregroundBlur_4004_613"/>
+</filter>
+
 </defs>
 </svg>
