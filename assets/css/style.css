@@ -791,8 +791,9 @@ whatsapp-button {
 }
 
 .feedback-img {
-    width: 110%;
+    width: 108%;
     margin-bottom: -5px;
+
 }
 
 /* FOOTER */
@@ -1322,9 +1323,11 @@ footer {
     }
 
     .about-subtitle {
-        font-size: 1.8rem;
         margin-top: 1.5rem;
         margin-bottom: 2rem;
+        font-weight: 400;
+        -webkit-font-smoothing: antialiased;
+        font-size: 1.8rem;
     }
 
     .cta-about {
@@ -1386,6 +1389,13 @@ footer {
     .service-one-list-item {
         flex-direction: column;
         align-items: center;
+
+    }
+
+    .service-one-list-item p {
+        font-weight: 400;
+        -webkit-font-smoothing: antialiased;
+        font-size: 1.6rem;
     }
 
     .service-one-list-item img {
@@ -1413,6 +1423,11 @@ footer {
         width: 100%;
     }
 
+    .service-two-list-item p {
+        font-weight: 400;
+        font-size: 1.6rem;
+    }
+
     .service-two-img {
         width: 90%;
         height: auto;
@@ -1431,7 +1446,10 @@ footer {
 
 
     .discover-subtitle {
+        font-size: 1.6rem;
         margin-bottom: 4rem;
+        -webkit-font-smoothing: antialiased;
+        font-weight: 400;
     }
 
     .book-content {
@@ -1440,15 +1458,18 @@ footer {
     }
 
     .book-content-title {
-        font-size: 2rem;
+        font-size: 1.8rem;
         width: 100%;
+
         text-align: center;
     }
 
     .book-content-list {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         width: 100%;
         text-align: center;
+        font-weight: 400;
+        -webkit-font-smoothing: antialiased;
     }
 
     .book-content-list-item {
@@ -1547,8 +1568,10 @@ footer {
         font-size: 1.6rem !important;
     }
 
+
     .feedback-img {
         width: 100%;
+
     }
 
     nav {
