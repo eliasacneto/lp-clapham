@@ -742,6 +742,8 @@ nav {
 }
 
 
+
+
 /* WHATSAPP */
 whatsapp-button {
     position: fixed;
@@ -786,6 +788,11 @@ whatsapp-button {
         height: 50px;
         font-size: 30px;
     }
+}
+
+.feedback-img {
+    width: 110%;
+    margin-bottom: -5px;
 }
 
 /* FOOTER */
