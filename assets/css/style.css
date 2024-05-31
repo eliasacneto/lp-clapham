@@ -917,7 +917,7 @@ footer {
 
     .testimonials-box {
         display: flex;
-        width: 100%;
+        width: 90%;
         gap: 4rem;
         margin: 4.5rem 2rem;
     }
