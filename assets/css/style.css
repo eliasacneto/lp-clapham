@@ -74,7 +74,7 @@ nav {
     -webkit-backdrop-filter: blur(13.5px);
     border-radius: 7.6rem;
     width: 60%;
-    margin: 5rem auto 1rem auto;
+    margin: 1rem auto 1rem auto;
 }
 
 .cta-nav {
@@ -210,8 +210,7 @@ nav {
     font-family: var(--ff-primary);
     font-weight: bold;
     font-size: 2rem;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(270deg, rgba(0, 0, 0, 0.7161239495798319) 42%, rgba(0, 0, 0, 0.2987570028011205) 100%, rgba(0, 0, 0, 0) 100%);
+    background-color: var(--color-primary);
     color: var(--white);
     border-radius: 2rem;
     width: 25rem;
@@ -494,8 +493,7 @@ nav {
 .get-book {
     font-family: var(--ff-primary);
     font-weight: bold;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(270deg, rgba(0, 0, 0, 0.427608543417367) 14%, rgba(0, 0, 0, 0.8057598039215687) 50%, rgba(0, 0, 0, 0.43040966386554624) 83%);
+    background-color: var(--color-primary);
     color: var(--white);
     font-size: 2.4rem;
     width: 55rem;
@@ -791,7 +789,7 @@ whatsapp-button {
 }
 
 .feedback-img {
-    width: 108%;
+    width: 100%;
     margin-bottom: -5px;
 
 }
@@ -918,6 +916,8 @@ footer {
     }
 
     .testimonials-box {
+        display: flex;
+        width: 100%;
         gap: 4rem;
         margin: 4.5rem 2rem;
     }
@@ -968,17 +968,22 @@ footer {
         width: 60rem;
     }
 
+    .book {}
+
     .book-content {
         gap: 8rem;
+        display: flex;
+        width: 80%;
+
     }
 
     .book-content-title {
         font-size: 2.3rem;
-        width: 55rem;
+        width: 40rem;
     }
 
     .book-content-list-item {
-        width: 55rem;
+        width: 40rem;
     }
 
     .get-book {
@@ -990,13 +995,14 @@ footer {
     }
 
     .workshop-box {
+
         margin: 10rem auto;
         padding: 5rem 8rem;
         gap: 8rem;
     }
 
     .workshop-content {
-        width: 70rem;
+        width: 50rem;
     }
 
     .workshop-title {
@@ -1044,7 +1050,7 @@ footer {
 }
 
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1024px) {
     .nav {
         width: 90%;
     }
@@ -1707,4 +1713,19 @@ footer {
 
 
 
+}
+
+
+
+
+
+.space-button-bandeira {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+}
+
+.space-button-bandeira img {
+    max-width: 50px;
 }
