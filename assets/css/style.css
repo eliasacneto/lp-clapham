@@ -1078,6 +1078,7 @@ footer {
         flex-direction: column;
         align-items: center;
         text-align: center;
+
         gap: 3rem;
     }
 
@@ -1102,9 +1103,12 @@ footer {
     }
 
     .cta-about {
-        width: 60%;
+
+
+        width: 100%;
         font-size: 1.8rem;
         padding: 0.8rem;
+        margin-bottom: 2rem;
     }
 
     .testimonials-title {
@@ -1190,6 +1194,7 @@ footer {
         height: auto;
         margin-top: 4rem;
         margin-bottom: 6rem;
+        padding: 1rem 2rem;
     }
 
     .workshop-box {
